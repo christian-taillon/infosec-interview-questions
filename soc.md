@@ -33,7 +33,8 @@ What is a file mutex?
 Can you configure IP Tables?
 Can you describe a POODLE attack?
 ```
-Man-in-the-middle exploit to fall back to SSL 3.0. Attacker needs to make 256 SSL 3.0 requests to reveal one byte of encrypted  messages.
+Man-in-the-middle exploit to fall back to SSL 3.0.
+Attacker needs to make 256 SSL 3.0 requests to reveal one byte of encrypted  messages.
 ```
 Describe how HeartBleed works?
 
