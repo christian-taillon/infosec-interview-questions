@@ -3,7 +3,7 @@ What made you interested in Cyber Security?
 
 What do you do when you are AFK?
 
-What have you pursued (outside of school and work)
+How have you pursued cybersecurity (outside of school and work)?
 
 What career/discipline are you interested in Cyber Security?
 
@@ -16,10 +16,11 @@ Check some vocab knowledge:
 ```
 asset - what you are trying to protect
 threat - something that can affect the CIA triad
-vulnerability - a weakness in security program that if exploirted threatens CIA triad
+vulnerability - a weakness in security program that if exploited threatens CIA triad
 risk - potential for damage to the CIA triad as a result of a threat
 
-RISK = Vulnerability + Threat + Asset
+Severity = Asset Priority * Threat Impact
+Risk  = Probability *  Severity
 ```
 What is the difference between a security event and a security incident?
 
@@ -31,11 +32,29 @@ SOC performs analysis to turn into incidents
 CIRT investigates incidents
 ```
 
-What is SSL how does it work?
-
-What's the difference between encoding, encrypting, and hashing?
-
 What's the difference between TCP and UDP?
+```
+TCP - creates sessions, slower but reliable (unicast)
+UDP - fast but not grunted, shout (unicast,multicast,broadcast)
+```
+What steps are involved in TCP handshake setup?
+```
+SYN
+SYN-ACK
+ACK
+Congrats. You're established.
+```
+
+What is SSL and how does it work? What is SSL how does it work?
+```
+Wraps TCP session in encrypted tunnel to secure data in packets.
+```
+What's the difference between encoding, encrypting, and hashing?
+```
+encoding -
+encrypting -
+hasing -
+```
 
 What is the difference between a drop and a deny on a firewall?
 
@@ -53,7 +72,7 @@ What is a file mutex?
 
 Can you configure IP Tables?
 
-Can you describe a POODLE attack?s
+Can you describe a POODLE attacks?
 
 ```
 Man-in-the-middle exploit to fall back to SSL 3.0.
