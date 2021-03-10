@@ -12,8 +12,15 @@ Where do you see your self in 5 years? 10 years?
 # SOC L1
 Describe your home lab.
 
-What's the difference between a threat, vulnerability, and risk?
+Check some vocab knowledge:
+```
+asset - what you are trying to protect
+threat - something that can affect the CIA triad
+vulnerability - a weakness in security program that if exploirted threatens CIA triad
+risk - potential for damage to the CIA triad as a result of a threat
 
+RISK = Vulnerability + Threat + Asset
+```
 What is the difference between a security event and a security incident?
 
 ```
