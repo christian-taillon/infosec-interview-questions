@@ -45,7 +45,7 @@ ACK
 Congrats. You're established.
 ```
 
-What is SSL and how does it work? What is SSL how does it work?
+What is SSL and how does it work?
 ```
 Wraps TCP session in encrypted tunnel to secure data in packets.
 ```
