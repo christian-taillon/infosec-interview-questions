@@ -1,16 +1,18 @@
 # General Open-ended Questions
-What made you interested in Cyber Security?
+Why did you choose to pursue a career in Cybersecurity?
 
 What do you do when you are AFK?
 
-How have you pursued cybersecurity (outside of school and work)?
+How have you pursued cybersecurity?
+- Outside of what has been required by school and work?
 
 What career/discipline are you interested in Cyber Security?
 
 Where do you see your self in 5 years? 10 years?
 
+Describe your home lab set up.
+
 # SOC L1
-Describe your home lab.
 
 Check some vocab knowledge:
 ```
@@ -35,7 +37,7 @@ CIRT investigates incidents
 What's the difference between TCP and UDP?
 ```
 TCP - creates sessions, slower but reliable (unicast)
-UDP - fast but not grunted, shout (unicast,multicast,broadcast)
+UDP - fast but not guaranteed, shout (unicast, multicast, broadcast)
 ```
 What steps are involved in TCP handshake setup?
 ```
@@ -61,6 +63,20 @@ What is the difference between a drop and a deny on a firewall?
 What is the difference been a SIEM and IDS?
 
 Define a XSRF, XXS, Phishing, SQL Injection attack and how to prevent them respectively?
+
+What are some XXS Countermeasures:
+Encoding the output
+Applying filters at the point where input is received
+Using appropriate response headers
+Enabling content security policy
+Escaping untrusted characters
+
+What are some examples of data types in terms of  Threat Intelligence Exchanges? <br>
+`email address`, `hosts`, `ip`, `filehash`, `filename`, `mutex`, `registry`.
+
+Can you list 10 common TCP ports and their protocols.
+
+
 
 ## Open-ended Questions
 What makes DNS monitoring so important?
