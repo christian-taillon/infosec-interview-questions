@@ -11,8 +11,8 @@ What makes you want to pursue a career in Cybersecurity?
 
 What do you do when you are AFK?
 
-How have you pursued cybersecurity?
-Followup: Outside of what has been required by school and work?
+How have you pursued cybersecurity?<br>
+Follow up: Outside of what has been required by school and work?
 
 What career/discipline are you interested in Cyber Security?
 
