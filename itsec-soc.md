@@ -17,6 +17,8 @@ What is the CIA Triad?
 Confidentiality | Integrity | Availability
 ```
 
+What are some types of Malware that you can tell me about? 
+  - followup: ...besides ransomware.
 ```
 Malware - Malicious Software
 PUP - Potentially Unwanted Program
@@ -26,9 +28,10 @@ Worm - like a virus but can spread over network often targetting known exploits
 Trojan - program pretending to be legitimate or desired software
 Bots - program performing automated tasks (no direct human interaction required)
 Botnet - collections of bots
-Ransomware (targets Availability) - malware that encrypts a file system allowing adversaries to require companies pay a ransom for decryption key
-Extortionware (targets CONFIDENTIALITY) - like ransomware but also involves malware uploading encrypted data (or part of encrypted data) to be released to the public if target doesn't pay
 Cryptominer - malware that mines crypto currency on a users device on behalf of an adversary
+Scareware - makes false claims about virus infecting a device typically involving a request for payment to solve the issue
+Ransomware (targets Availability) - malware that encrypts a file system allowing adversaries to require companies pay a ransom for decryption key
+Extortionware/leakware aka. Double Extortion Ransomware (targets CONFIDENTIALITY) - like ransomware but also involves malware uploading encrypted data (or part of encrypted data) to be released to the public if target doesn't pay
 
 ```
 
