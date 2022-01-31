@@ -6,6 +6,13 @@ Lists of interview questions for those in cyber security intended to help both t
 ## [IT Security Admin Questions](https://github.com/christian-taillon/infosec-interview-questions/blob/main/itsec-admin.md)
 
 
+## Soft Skills to Asses
+1. Inquisitiveness
+2. Collaboration
+3. Fundamental IT / Cyber Knowledge
+4. Critical Thinking
+5. Ability to work under pressure
+
 ## General Open-ended Questions
 What makes you want to pursue a career in Cybersecurity?
 
