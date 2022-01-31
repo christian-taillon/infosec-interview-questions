@@ -1,6 +1,6 @@
 # SOC L1
 
-Check some vocab knowledge:
+### Basic Vocab
 ```
 asset - what you are trying to protect
 threat - something that can affect the CIA triad
@@ -12,10 +12,13 @@ Severity = Asset Priority * Threat Impact
 Risk  = Probability *  Severity
 ```
 
-
-Malware Vocab
+What is the CIA Triad?
 ```
-Malware - Malicious
+Confidentiality | Integrity | Availability
+```
+
+```
+Malware - Malicious Software
 PUP - Potentially Unwanted Program
 Adware - serves unwanted or malicious advertising
 Virus - infects other programs to copy its self
@@ -29,10 +32,39 @@ Cryptominer - malware that mines crypto currency on a users device on behalf of 
 
 ```
 
-What is the CIA Triad?
+What is an IoC?
+
 ```
-Confidentiality | Integrity | Availability
+A piece of observable forensics that suggests an endpoint or environment may have been compromised.  
 ```
+
+What is the difference between IoC and an IoA?
+
+```
+IoC - Indicates Compromise
+IoA - Indicator of Attack
+```
+
+
+
+What are some of the common examples of a Cyber Observables Indicator (aka IoC/IoA)? <br>
+`email address`, `hosts`, `ip`, `filehash`, `filename`, `mutex`, `registry`, `url`, `cidr`, `email subject`, `user-agent`
+
+Generally speaking, are some other Indicators of Compromise in environment?
+```
+Answers along the lines of:
+Unusual, rare, or otherwise anomalous rhythmic DNS requests
+Unusual, rare, or otherwise anomalous network traffic
+Impossible Travel Events
+Unknown and unapproved applications on a system
+Surge in invalid login or access attempts
+Surge in domain activity from entity
+New and Unapproved User Account creation
+Individual devices or machines usual files or network resources
+Suspicious Registry changes
+etc...
+```
+
 
 Tell us about some controls that are commonly used to secure a company.
 ```
@@ -142,8 +174,6 @@ A salt is random data that is applied to a hashed password stored in the passwor
 ```
 
 
-What are some examples of data types in terms of  Threat Intelligence Exchanges? <br>
-`email address`, `hosts`, `ip`, `filehash`, `filename`, `mutex`, `registry`.
 
 What are the OSI layers?
 ```
