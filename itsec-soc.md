@@ -17,7 +17,7 @@ What is the CIA Triad?
 Confidentiality | Integrity | Availability
 ```
 
-What are some types of Malware that you can tell me about? 
+What are some types of Malware that you can tell me about?
   - followup: ...besides ransomware.
 ```
 Malware - Malicious Software
@@ -226,12 +226,14 @@ What is a file mutex?
 Can you configure IP Tables?
 
 Can you describe a POODLE attacks?
-What makes DNS monitoring so important?
+
 ```
 Man-in-the-middle exploit to fall back to SSL 3.0.
 Attacker needs to make 256 SSL 3.0 requests to reveal one byte of encrypted  messages.
 ```
 
 Describe how HeartBleed works?
+
+What makes DNS monitoring so important?
 
 Name some attributes about an alert that you might use to triage it?
