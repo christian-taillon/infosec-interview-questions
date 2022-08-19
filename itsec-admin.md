@@ -1,15 +1,6 @@
 # Engineering
 
-Tell us about some controlls that are commonly used to secure a company.
-
-What are the OSI layers?
-
-What is the difference between a droping traffic and denying / rejecting traffic on a firewall?
-
-What is Layer 7 Firewall vs Layer 3?
-
-How does Anti Malware work?
-
+Tell us about some controls that are commonly used to secure a company.
 
 
 --------------
@@ -25,6 +16,10 @@ Severity = Asset Priority * Threat Impact
 Risk  = Probability *  Severity
 ```
 
+How does Anti-Malware work? 
+
+
+Describe Dynamic Analysis vs. Static. 
 
 ```
 What is the CIA Triad?
@@ -38,10 +33,10 @@ Tell us about some controls that are commonly used to secure a company.
 Firewall|Anti-Virus|EDR|NDR|Proxy|ESG|IDS/IPS|secret managers|SIEM|App Whitelisting|Script Control|UBA/UEBA|CASB|Vulnerability Scanners|MFA/2FA|SOAR|etc
 
 
-What is the difference been a SIEM and IDS and IPS?
+What is the difference been a SIEM and IDS, and IPS?
 
 ```
-SIEM - combines security information management and security event management - collects and aggregates events for alerting, analysis / investigation
+SIEM - combines security information management and security event management - collects and aggregates events for alerting, analysis/investigation
 NIDS - event generation - uses signatures, pattern matching, reputation scoring, or anomaly detection to generate security events in network traffic
 HIDS - event generation - uses signatures, pattern matching, reputation scoring, or anomaly detection to generate security events on a host
 ```
@@ -105,7 +100,7 @@ FIN
 ```
 
 
-What is the difference between a droping traffic and denying / rejecting traffic on a firewall?
+What is the difference between droping traffic and denying / rejecting traffic on a firewall?
 
 ```
 deny - will send an ICMP type 3 (destination unreachable) response
@@ -116,26 +111,27 @@ What is the difference between IDS and IPS?
 
 ```
 IDS - detects security events
-IPS - has capability to block security events
+IPS - has the capability to block security events
 ```
-If there was an attack from a specific IP address, how would you defend our network from that IP?
+How would you defend our network from that IP if there was an attack from a specific IP address? What about if those attacks were comming from a whole network? 
 ```
 Block the IP addresses
+CIDR / ASN
 ```
 
 What is SNMP?
-  At what layer does this protocol exist `network`
+  At what layer does this protocol exist `network.`
 ```
-Simple Network Management Protocol is standard / protocol for obtaining and organizing information about managed devices.
+Simple Network Management Protocol is the standard/protocol for obtaining and organizing information about managed devices.
 ```
 
 What is MAC Spoofing?
 ```
-MAC addresses are written by hardware manufactures; however, users can "mask" it on the software side so that the device appears to have a different MAC address.
+MAC addresses are written by hardware manufacturers; however, users can "mask" it on the software side so that the device appears to have a different MAC address.
 ```
 
 What is ARP?
-  Describe ARP poisoning / flooding?
+  Describe ARP poisoning/flooding?
 ```
 Address Resolution Protocol maps IPs to MAC addresses for a LAN. ARP poisoning is where an attacker sends a "spoofed" ARP message on a LAN to associate the attacker's MAC address with the IP of another host.
 ```
@@ -144,33 +140,33 @@ Address Resolution Protocol maps IPs to MAC addresses for a LAN. ARP poisoning i
 ## Cryptographic
 What is SSL and how does it work?
 ```
-Wraps TCP session in encrypted tunnel to secure data in packets.
+Wraps TCP session in the encrypted tunnel to secure data in packets.
 ```
 
 What's the difference between encoding, encrypting, and hashing? What is each used for?
 ```
 encoding - (AVAILABILITY) reversible transformation of data format to preserve data usability
-encrypting - (CONFIDENTIALITY) secure encoding of data to allow only authorized access to decrypt to reveal original text
-hasing - (INTEGRITY) one way unique(ish) summary of data used for integrity
+encrypting - (CONFIDENTIALITY) secure encoding of data to allow only authorized access to decrypt to reveal the original text
+hashing - (INTEGRITY) one way unique(ish) summary of data used for integrity
 ```
 
 How does encryption work?
   - Symmetric and Asymmetric
 ```
 Symmetric - private key used to encrypt and decrypt
-Asymmetric - a public key is used to encrypt and a separate private key is used to decrypt
+Asymmetric - a public key is used to encrypt, and a separate private key is used to decrypt
 ```
 
 What is a salted hash and what does it protect against?
 ```
-A salt is random data that is applied to a hashed password stored in the password database to protect against known hash attacks
+A salt is random data that is applied to a hashed password stored in the password database to protect against known hash attacks.
 ```
 
 
 ## Open-Ended Questions:
-Can you list 5 common TCP ports and their protocols.
+Can you list five common TCP ports and their protocols?
 
-Choose either XSRF, XXS, Phishing, SQL Injection attack. Describe two attacks and how to detect and prevent them?
+Choose either XSRF, XXS, Phishing, or SQL Injection attack. Describe two attacks and how to detect and prevent them.
 
 What are some steps you would take to secure a server?
 
