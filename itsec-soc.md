@@ -67,6 +67,47 @@ Suspicious Registry changes
 etc...
 ```
 
+What event logs are available (by default) on Windows Operating Systems?
+```
+Security | Applicatoin | System
+```
+
+List some common Windows Event Log Codes.
+```
+Event ID :	Desc
+4624	Successful account log on
+4625	Failed account log on
+4634	An account logged off
+4648	A logon attempt was made with explicit credentials
+4719	System audit policy was changed.
+4964	A special group has been assigned to a new log on
+1102	Audit log was cleared. This can relate to a potential attack
+4720	A user account was created
+4722	A user account was enabled
+4723	An attempt was made to change the password of an account
+4725	A user account was disabled
+4728	A user was added to a privileged global group
+4732	A user was added to a privileged local group
+4756	A user was added to a privileged universal group
+4738	A user account was changed
+4740	A user account was locked out
+4767	A user account was unlocked
+4735	A privileged local group was modified
+4737	A privileged global group was modified
+4755	A privileged universal group was modified
+4772	A Kerberos authentication ticket request failed
+4777	The domain controller failed to validate the credentials of an account.
+4782	Password hash an account was accessed
+4616	System time was changed
+4657	A registry value was changed
+4697	An attempt was made to install a service
+4698, 4699, 4700, 4701, 4702	Events related to Windows scheduled tasks being created, modified, deleted, enabled or disabled
+4946	A rule was added to the Windows Firewall exception list
+4947	A rule was modified in the Windows Firewall exception list
+4950	A setting was changed in Windows Firewall
+4954	Group Policy settings for Windows Firewall has changed
+5025	The Windows Firewall service has been stopped
+```
 
 Tell us about some controls that are commonly used to secure a company.
 ```
@@ -124,7 +165,12 @@ deny - will send an ICMP type 3 (destination unreachable) response
 drop - no notification of denial / silently stops traffic
 ```
 
+What are some SQL Injection Types?
+```
+In-band | Inferential | Out-of-Band
+```
 
+How do you prevent SQL Injection Attacks?
 
 What are some XXS Countermeasures
 ```
