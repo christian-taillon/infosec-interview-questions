@@ -9,9 +9,37 @@ Lists of interview questions for those in cyber security are intended to help bo
 ## Soft Skills to Assess
 1. Inquisitiveness
 2. Collaboration
-3. Fundamental IT / Cyber Knowledge
-4. Critical Thinking
-5. Ability to work under pressure
+3. Critical Thinking
+4. Ability to work under pressure
+
+## General IT / Cyber Knowledge
+1. Network Fundamentals
+2. Operating System Fundamentals
+3. Basic concepts (Malware Types, Threats)
+  - IOC/IOA
+    - domain
+    - ip
+    - hash
+    - registry key
+    - email
+    - site
+    - mutex
+    - etc
+  - Basic Vulnerabilities Abuse Concepts
+    - Privilege Escallation (PE, LPE, etc)
+    - Code Execution (RCE, PreAuth RCE, ABE, etc).
+    - Memory Corruption
+    - Buffer Overflow
+    - Directory Traversal
+    - Injection Attacks
+  - Malware Types
+    - Spyware/SpyBot, Keyloggers, PUP/Adware, Trojans, Ransomware, Worms Rootkits, RAT
+4. Methods of Investigatoin Examples:
+  - phishing
+  - IDS events
+  - cloud events
+  - malware
+  - domain events
 
 ## General Open-ended Questions
 What makes you want to pursue a career in Cybersecurity?
@@ -32,7 +60,13 @@ Tell us about any competitions you have competed in.
 
 What has been your favorite free or paid education resource?
 
-How do you keep up-to-date outside regular work hours?
+How do you keep up-to-date on Cyber Events? Where do you source your CyberNews?
+
+What is OSINT?
+
+Do you have any projects that you can show us?
+
+Tell us about Cyber Threat Intelligence.
 
 Tell us about some cyber-attacks that have happened recently.
 

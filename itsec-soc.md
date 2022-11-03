@@ -38,7 +38,7 @@ Extortionware/leakware, aka. Double Extortion Ransomware (targets CONFIDENTIALIT
 What is an IoC?
 
 ```
-A piece of observable forensics that suggests an endpoint or environment may have been compromised.  
+A piece of observable forensics that suggests an endpoint or environment may have been compromised.
 ```
 
 What is the difference between IoC and an IoA?
@@ -108,7 +108,7 @@ VirusTotal|OTX|Cymon|PassiveTotal|ThreatConnect|Threat Crowd|Threat Miner|IBM X-
 
 What resources might you use to analyze a file dynamically?
 ```
-Hybrid Analysis | Any.Run | Joe's Sandbox | OPSWAT 
+Hybrid Analysis | Any.Run | Joe's Sandbox | OPSWAT
 ```
 
 ## Containment | Remediation | Escalation

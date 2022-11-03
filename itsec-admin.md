@@ -16,15 +16,21 @@ Severity = Asset Priority * Threat Impact
 Risk  = Probability *  Severity
 ```
 
-How does Anti-Malware work? 
+How does Anti-Malware work?
 
 
-Describe Dynamic Analysis vs. Static. 
+Describe Dynamic Analysis vs. Static.
 
-```
-What is the CIA Triad?
+
+What is the CIA Triad? Explain.
 ```
 Confidentiality | Integrity | Availability
+```
+
+What is AAA? Explain.
+```
+Authentication | Authorization | Accounting
+```
 
 ## Controlls
 ```
@@ -113,7 +119,7 @@ What is the difference between IDS and IPS?
 IDS - detects security events
 IPS - has the capability to block security events
 ```
-How would you defend our network from that IP if there was an attack from a specific IP address? What about if those attacks were comming from a whole network? 
+How would you defend our network from that IP if there was an attack from a specific IP address? What about if those attacks were comming from a whole network?
 ```
 Block the IP addresses
 CIDR / ASN
