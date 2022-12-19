@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Security Engineer"
+permalink: /securityengineer
+---
+
 # Engineering
 
 Tell us about some controls that are commonly used to secure a company.

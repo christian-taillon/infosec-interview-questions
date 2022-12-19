@@ -1,3 +1,9 @@
+---
+layout: page
+title: "SOC L1 Inteview"
+permalink: /socinterview
+---
+
 # SOC L1
 
 ### Basic Vocab
@@ -19,6 +25,7 @@ Confidentiality | Integrity | Availability
 
 What are some types of Malware that you can tell me about?
   - followup: ...besides ransomware.
+
 ```
 Malware - Malicious Software
 PUP - Potentially Unwanted Program
